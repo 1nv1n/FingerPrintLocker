@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main -->
+    <string name="app_name">FingerPrintLocker</string>
+    <string name="app_description">Lock your device with your finger print. Ensure that this App is enabled as a \'Device Administrator\' under \'Settings > Security > Device Administrators\'.</string>
+    <string name="android_key_store">AndroidKeyStore</string>
+
+    <!-- Settings -->
+    <string name="action_settings">Settings</string>
+    <string name="checkbox_fingerprint_authentication_title">Use fingerprint for authentication</string>
+    <string name="checkbox_fingerprint_authentication_key" >use_fingerprint_for_authentication_key</string>
+    <string name="checkbox_vibrate_on_lock_title">Vibrate when locking the screen</string>
+    <string name="checkbox_vibrate_on_lock_key">vibrate_on_lock_key</string>`
+
+    <!-- Misc -->
+    <string name="authenticate_fingerprint">Authentication Required</string>
+    <string name="ok">OK</string>
+    <string name="password">Password</string>
+    <string name="fingerprint_description">Confirm your fingerprint to lock this device.</string>
+    <string name="fingerprint_hint">Touch the FingerPrint Sensor</string>
+    <string name="password_description">Enter your password to continue</string>
+    <string name="fingerprint_not_recognized">Fingerprint not recognized. Try again</string>
+    <string name="fingerprint_success">Fingerprint recognized</string>
+    <string name="fingerprint_locked">Lock successful</string>
+
+    <!-- Button -->
+    <string name="button_cancel">Cancel</string>
+    <string name="button_lock">Lock</string>
+    <string name="button_authenticate_password">Use stored password</string>
+
+    <!-- Notifications -->
+    <string name="new_fingerprint_enrolled_description">A new fingerprint was added to this device, the current password is required.</string>
+    <string name="use_fingerprint_in_future">Use fingerprint in the future.</string>
+    <string name="device_admin_not_enabled">FingerPrintLocker was not marked as a Device Administrator. Please mark it such under your device\'s Security settings. \'Settings > Security > Device Administrators\'.</string>
+    <string name="device_admin_description">Turns the screen off and locks your device upon successful fingerprint authentication.</string>
+    <string name="admin_receiver_status_enabled">FingerPrintLocker was added as a Device Administrator.</string>
+    <string name="admin_receiver_status_disabled">FingerPrintLocker was removed from the Device Administrator\'s list.</string>
+
+    <!-- Exceptions -->
+    <string name="KeyStoreException">Failed to get an instance of the Android KeyStore</string>
+    <string name="KeyGeneratorException">Failed to get an instance of KeyGenerator</string>
+    <string name="CipherException">Failed to get an instance of Cipher</string>
+
+</resources>

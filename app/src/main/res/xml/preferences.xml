@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="@string/checkbox_fingerprint_authentication_key"
+        android:title="@string/checkbox_fingerprint_authentication_title"
+        android:persistent="true"
+        android:defaultValue="true"
+        android:enabled="false"/>
+    <CheckBoxPreference
+        android:key="@string/checkbox_vibrate_on_lock_key"
+        android:title="@string/checkbox_vibrate_on_lock_title"
+        android:persistent="true"
+        android:defaultValue="true" />
+</PreferenceScreen>

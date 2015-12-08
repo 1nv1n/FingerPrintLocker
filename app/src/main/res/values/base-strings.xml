@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="intro_message">
+        <![CDATA[Fingerprint Locker locks the device on successful fingerprint authentication]]>
+    </string>
+</resources>
